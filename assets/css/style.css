@@ -8,10 +8,14 @@ body {
   background-color: #d9dcd6;
 }
 
-.header {
-  padding: 20px;
+.header,
+.footer {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+}
+
+.header {
+  padding: 20px;
   background-color: #2a607c;
   color: #ffffff;
 }
@@ -136,8 +140,6 @@ p {
 .footer {
   padding: 30px;
   clear: both;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
   text-align: center;
 }
 
