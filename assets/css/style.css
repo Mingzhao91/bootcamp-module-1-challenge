@@ -50,7 +50,7 @@ p {
   font-size: 20px;
 }
 
-.header nav ul {
+.nav-item-list {
   /* css rules for navigation links container within nav tag */
   list-style-type: none;
 }
