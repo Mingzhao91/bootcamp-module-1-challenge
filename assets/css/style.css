@@ -1,3 +1,4 @@
+/* general css rules start here */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -16,29 +17,37 @@ a {
 p {
   font-size: 16px;
 }
+/* general css rules end here */
+
+/* css rules for classes start here */
 
 .header,
 .footer {
+  /* share the same font-family for header and footer */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 
 .header {
+  /* css rules for header container */
   padding: 20px;
   background-color: #2a607c;
   color: #ffffff;
 }
 
 .header h1 {
+  /* css rules for h1 tag inside header container */
   display: inline-block;
   font-size: 48px;
 }
 
 .header h1 .seo {
+  /* set colour to .seo class that is inside the h1 tag within header class*/
   color: #d9dcd6;
 }
 
 .header nav {
+  /* css rules for navigation container within header */
   padding-top: 15px;
   margin-right: 20px;
   float: right;
@@ -47,15 +56,18 @@ p {
 }
 
 .header nav ul {
+  /* css rules for navigation links container within nav tag */
   list-style-type: none;
 }
 
 .header nav ul li {
+  /* css rules for each navigation link within the navigation container */
   display: inline-block;
   margin-left: 25px;
 }
 
 .hero {
+  /* styles for the big image underneath the header */
   height: 800px;
   width: 100%;
   margin-bottom: 25px;
@@ -66,24 +78,29 @@ p {
 
 .float-left,
 .float-right {
+  /* share the same css rule for float-left and float-right classes */
   margin-right: 25px;
 }
 
 .float-left {
+  /* set float to the left for tag that has .float-left class */
   float: left;
 }
 
 .float-right {
+  /* set float to the right for tag that has .float-right class */
   float: right;
 }
 
 .content {
+  /* styles for the main content container */
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
 .benefits {
+  /* styles for the benefits container */
   margin-right: 20px;
   padding: 20px;
   clear: both;
@@ -97,6 +114,7 @@ p {
 .benefit-lead,
 .benefit-brand,
 .benefit-cost {
+  /* share the same rules for each benefit container */
   margin-bottom: 32px;
   color: #ffffff;
 }
@@ -104,6 +122,7 @@ p {
 .benefit-lead h3,
 .benefit-brand h3,
 .benefit-cost h3 {
+  /* share the same rules for each benefit's h3 tag */
   margin-bottom: 10px;
   text-align: center;
 }
@@ -111,6 +130,7 @@ p {
 .benefit-lead img,
 .benefit-brand img,
 .benefit-cost img {
+  /* share the same rules for images inside each benefit */
   display: block;
   margin: 10px auto;
   max-width: 150px;
@@ -119,6 +139,7 @@ p {
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
+  /* share the same rules for sections in article tag */
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -130,22 +151,28 @@ p {
 .search-engine-optimization img,
 .online-reputation-management img,
 .social-media-marketing img {
+  /* give the same max-height to all images for each section in article tag */
   max-height: 200px;
 }
 
 .search-engine-optimization h2,
 .online-reputation-management h2,
 .social-media-marketing h2 {
+  /* share the same rules for all h2 tags in each section within article tag */
   margin-bottom: 20px;
   font-size: 36px;
 }
 
 .footer {
+  /* styles for footer */
   padding: 30px;
   clear: both;
   text-align: center;
 }
 
 .footer h2 {
+  /* styles for h2 tag in footer */
   font-size: 20px;
 }
+
+/* css rules for classes end here */
