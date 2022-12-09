@@ -62,6 +62,7 @@ p {
 }
 
 .nav-link {
+  /* css rules for navigation link */
   color: #ffffff;
   text-decoration: none;
 }
