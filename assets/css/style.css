@@ -55,8 +55,8 @@ p {
   list-style-type: none;
 }
 
-.header nav ul li {
-  /* css rules for each navigation link within the navigation container */
+.nav-item {
+  /* css rules for navigation item within the navigation unorder list */
   display: inline-block;
   margin-left: 25px;
 }
