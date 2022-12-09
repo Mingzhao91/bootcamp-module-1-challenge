@@ -131,9 +131,7 @@ p {
   max-width: 150px;
 }
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
+.company-expertise {
   /* share the same rules for sections in article tag */
   margin-bottom: 20px;
   padding: 50px;
@@ -143,16 +141,12 @@ p {
   color: #ffffff;
 }
 
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
+.company-expertise-img {
   /* give the same max-height to all images for each section in article tag */
   max-height: 200px;
 }
 
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
+.company-expertise-header {
   /* share the same rules for all h2 tags in each section within article tag */
   margin-bottom: 20px;
   font-size: 36px;
