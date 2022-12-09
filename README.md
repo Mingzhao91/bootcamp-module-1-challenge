@@ -57,14 +57,14 @@ A clean footer with sharp text to show the authour of the webpage and the copy r
 
 ## Deployment
 
-Visit the project website using this [link](https://mingzhao91.github.io/bootcamp-module-1-challenge/).
+Visit the project website using this <a href="https://mingzhao91.github.io/bootcamp-module-1-challenge" target="_blank">link</a>.
 <br/>
 
 <div id="authors" />
 
 ## Authors
 
-- **Mingzhao Zhou** - [Mingzhao91](https://github.com/Mingzhao91)
+- **Mingzhao Zhou** - <a href="https://github.com/Mingzhao91" target="_blank">Mingzhao91</a>
   <br/>
 
 <div id="license" />
