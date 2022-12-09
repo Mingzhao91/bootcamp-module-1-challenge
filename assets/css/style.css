@@ -9,11 +9,6 @@ body {
   background-color: #d9dcd6;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
 p {
   font-size: 16px;
 }
@@ -64,6 +59,11 @@ p {
   /* css rules for each navigation link within the navigation container */
   display: inline-block;
   margin-left: 25px;
+}
+
+.nav-link {
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .hero {
