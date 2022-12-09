@@ -30,13 +30,13 @@ p {
   color: #ffffff;
 }
 
-.header h1 {
+.company-name {
   /* css rules for h1 tag inside header container */
   display: inline-block;
   font-size: 48px;
 }
 
-.header h1 .seo {
+.company-name .seo {
   /* set colour to .seo class that is inside the h1 tag within header class*/
   color: #d9dcd6;
 }
