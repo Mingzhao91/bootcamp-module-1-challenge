@@ -119,7 +119,7 @@ p {
   color: #ffffff;
 }
 
-.benefit-header {
+.benefit-heading {
   /* share the same rules for each benefit's h3 tag */
   margin-bottom: 10px;
   text-align: center;
@@ -149,7 +149,7 @@ p {
   max-height: 200px;
 }
 
-.company-expertise-header {
+.company-expertise-heading {
   /* share the same rules for all h2 tags in each section within article tag */
   margin-bottom: 20px;
   font-size: 36px;
