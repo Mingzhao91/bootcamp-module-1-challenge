@@ -112,25 +112,19 @@ p {
   background-color: #2589bd;
 }
 
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+.benefit-section {
   /* share the same rules for each benefit container */
   margin-bottom: 32px;
   color: #ffffff;
 }
 
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
+.benefit-header {
   /* share the same rules for each benefit's h3 tag */
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
+.benefit-img {
   /* share the same rules for images inside each benefit */
   display: block;
   margin: 10px auto;
