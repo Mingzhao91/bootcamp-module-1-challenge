@@ -46,8 +46,6 @@ Horiseon followed by the areas of expertise on the left and benefits of choosing
 
 > Areas of Expertise(left) and Benefits of choosing Horiseon(right)
 
-<br/>
-
 <div id="breakdown-footer" />
 
 ### Footer
